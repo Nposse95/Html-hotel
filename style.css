@@ -1,0 +1,236 @@
+
+
+body {
+ background-image: url(imagenes/diamond-zag.png);
+ font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+header { 
+    background-color: rgba(0, 0, 0, 0.631);
+    padding:20px;
+
+    }
+
+h1 {
+
+    /*color fucsia rgb(255, 0, 98)*/
+    color: pink;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    transition:all 2s ;
+    position: absolute;
+   }
+
+h1:hover {
+
+    transform:scale(1.5)
+
+}
+.encabeza2 {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+
+.Direc {
+    color: white;
+  
+}
+
+.barranav {
+
+    background-color: rgba(0, 0, 0, 0.631);
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.div-navbar {
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+.enlaces { 
+    font-size: 2rem;
+    color: white;
+    border-radius: 20px 40px;
+    border: 5px solid white;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+}
+
+.enlaces:hover {
+   
+    animation: changeColor 2s ;
+
+}
+
+@keyframes changeColor {
+
+    0% {
+      background-color: pink;
+    }
+
+    100% {
+      background-color: black;
+    }
+   
+} 
+
+.foto-container {
+
+
+    background-color: rgb(255, 192, 203);
+    margin-top: 40px;
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    border: 8px solid pink
+    
+}
+
+.imag {
+    width: 100%;
+    height: 100%;
+    transition: all 2s;
+}
+
+.imag:hover {
+
+    transform: scale(1.1)
+}
+
+.video-container2 {
+
+    background-color: rgba(0, 0, 0, 0.631) ;   
+    margin-top: 40px;
+    margin-bottom: 40px;
+     display: grid;
+
+   
+     grid-template-rows: 150px 150px 150px;
+    
+     grid-template-columns: repeat(3, 1fr);
+   
+     
+ 
+     gap: 10px;
+    
+}
+
+
+.item-uno {
+     
+    background-color: rgb(255, 192, 203);
+    display: grid; 
+    grid-row-start: 1;
+    grid-row-end: 4 ;
+}
+
+.item-dos {
+    
+    background-color: rgba(0, 0, 0, 0.631);
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    
+}
+
+.paragraph {
+
+    color: white;
+    font-size: 2rem;
+}
+
+.socialmedia {
+
+    
+    border-radius: 20px 40px;
+    border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.631) ;
+}
+
+.navfooter {
+    
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.insta {
+
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.face {
+
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.gmail {
+
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.wpp {
+
+    position: fixed;
+    bottom: 1%;
+    right:1%;
+    
+} 
+
+.wppimg {
+   
+    border-radius: 40px;
+
+}
+
+/*FOTOS.HTML */
+
+.carousel1 {
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    border: 6px solid pink;
+    padding: 10px;
+
+} 
+
+.grafo {
+
+    font-size: 2rem;
+    color: white;
+}
+
