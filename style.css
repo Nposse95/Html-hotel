@@ -24,7 +24,7 @@ header {
     position: absolute;
    }
 
-h1:hover {
+.ips:hover {
 
     transform:scale(1.5)
 
@@ -48,7 +48,7 @@ h1:hover {
     margin-top: 2rem;
 }
 
-.div-navbar {
+.ul-navbar {
     display: flex;
     justify-content:space-evenly;
     
@@ -232,5 +232,59 @@ h1:hover {
 
     font-size: 2rem;
     color: white;
+}
+
+/*Restaurante.html empieza*/
+
+.resto {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(2,600px);
+    grid-template-rows: 500px;
+    gap: 20px;
+}
+
+.elpatioimg {
+
+    width: 100%;
+    height: 100%;
+}
+
+.elpatioimg:hover {
+    
+    transform: scale(1.1);
+    transition: all 2s;
+}
+
+.parrafo-resto {
+
+    background-color: transparent;
+
+    
+}
+
+.parrafo-resto:hover {
+
+    animation: change 1s;
+}
+
+@keyframes change {
+  
+
+    100% {
+
+        background-color: pink;
+        
+        
+    }
+}
+
+.increible {
+    
+    font-size: 2rem;
+    color: black;
+    margin-left: 10px;
 }
 
