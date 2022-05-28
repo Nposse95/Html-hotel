@@ -337,4 +337,42 @@ h2:hover span {
     justify-content: center;
 }
 
+/*EMPEZAMOS UBICANOS.HTML*/
 
+.mainubi {
+
+ 
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: 1fr;
+   grid-column-gap: 5px;
+   grid-row-gap: 0px;
+   margin: 10px 10px 10px 10px;
+        
+
+}
+
+.mapita {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.imgsuperior {
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.imgsuperior {
+
+    transition: 1s linear;
+    
+}
+
+.imgsuperior:hover {
+
+    transform:translate(10px, 10px);
+}
