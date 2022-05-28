@@ -317,5 +317,24 @@ h2:hover span {
     
 }
 
+.futer {
+
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-top: 50px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 2px solid black;
+
+
+}
+
+.futer div {
+
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
 
 
